@@ -1,0 +1,3 @@
+# Ruby Bug: Unexpected Behavior from Direct Instance Variable Modification
+
+This repository demonstrates a common, yet subtle bug in Ruby related to directly modifying instance variables using `instance_variable_set` or `instance_variable_get`. While this might seem like a quick way to access or change internal state, it often undermines the principles of encapsulation and can lead to unpredictable results, especially in larger or more complex applications.  The bug and its solution showcase best practices for handling object attributes.
